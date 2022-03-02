@@ -14,8 +14,8 @@ import java.io.File;
 public class CreateBucket {
 
     public static void main(String[] args) {
-        String access_key_id = "ASIAUVORRQZ55CBMV3HJ";
-        String secret_key_id =  "rQrJP0wZzteEjDBN2e+ma8sAKN454T894tGYOpSX";
+        String access_key_id = "XXXXX";
+        String secret_key_id =  "XXXX";
         String session_token =  "FwoGZXIvYXdzENf//////////wEaDNQ+2tMUJe3qlwCosSK/AeplZqC6ovl85EMfgEGwuHHiaCGo9zLESV69Fj4t3oRd4Nu5HBmJRabqJo5q6vLCl2AEp1D1HDb9X1xGE0Qfe1zXpaxc5OPV0rZ7fAK6/+wBq8zj6VkvlRqQ2vtHhEwM23oWpAkGxQFFYgam6GfjqQBNNoF7zkqAYg1C//c6SCcaGG1IAAiqDePmP8uzFTBaNevnI/dnGblHNqePd+pJXPkiiXEGbhZLMny4avPF2EsZUoB/TL/tYrfj+PF5WvfuKKihy4wGMi0eJP1iEsxLY1/MdDzPwwHZvju7YT5aHohMl2ULiZlYYFpsKZoez4DY1X2Q+9U=";
         BasicSessionCredentials sessionCredentials = new BasicSessionCredentials(
                 access_key_id, secret_key_id,session_token);
